@@ -1,0 +1,351 @@
+﻿          <!DOCTYPE html>
+          <html lang="pt-br">
+
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=0.5a">
+            <title>Portal da Geografia</title>
+            <style>
+              * {
+                box-sizing: border-box;
+              }
+
+              /*style das fontes do body */
+              body {
+
+                font-family: Arial;
+                padding: 12px;
+                background: #f1f1f1;
+              }
+
+              /*style das fontes dos paragrafos */
+              p {
+                text-align: justify;
+                text-indent: 25px;
+                font-size: 20px;
+              }
+
+              h2 {
+                font-size: 28px;
+                text-align: center;
+                text-transform: uppercase;
+              }
+
+              /*style do formulário*/
+              input[type=text] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                font-size: 18px;
+              }
+
+              /*style do botão de cadastro */
+              .button {
+                background-color: #aac6da;
+                border: none;
+                color: rgb(0, 0, 0);
+                padding: 10px 20px;
+                text-align: center;
+                font-size: 18px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 15px;
+              }
+
+              /* Classe de cabeçalho do blog */
+              .header {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: #f1f1f1;
+                padding: 5px;
+                text-align: center;
+                background: rgb(11, 4, 73)
+              }
+
+              .header h1 {
+                font-size: 50px;
+              }
+
+              /* Style da barra de navegação*/
+              .topnav {
+                overflow: hidden;
+                background-color: #539ccc;
+              }
+
+              .topnav a {
+                float: left;
+                display: block;
+                color: #000000;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              }
+
+              /* Quando passar o mouse por cima, mudar de cor */
+              .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+              }
+
+              /*criando duas colunas desiguais, uma ao lado da outra */
+              /* Coluna da esquerda */
+              .leftcolumn {
+                float: left;
+                width: 60%;
+              }
+
+              /* Coluna da direita */
+              .rightcolumn {
+                float: left;
+                width: 40%;
+                background-color: #f1f1f1;
+                padding-left: 20px;
+              }
+
+              /* adicionar efeitos para os artigos */
+              .card {
+                background-color: white;
+                padding: 20px;
+                margin-top: 20px;
+              }
+
+              /* ajeitar após as colunas */
+              .row::after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+
+              /* Rodapé */
+              .footer {
+                padding: 10px;
+                text-align: center;
+                background: #87c9f5;
+                margin-top: 15px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 12px;
+              }
+
+              /*style da tabela*/
+              table,
+              th,
+              td {
+                border: 1px solid;
+                text-align: center;
+                vertical-align: middle;
+                padding: 10px;
+              }
+
+              th {
+                background-color: lightblue;
+                color: black;
+                height: 100%;
+                border-color: black;
+              }
+
+              table {
+                font-size: 20px;
+                width: 100%;
+                border-collapse: no-collapse;
+                overflow: scrool ;
+                table-layout: fixed;
+              }
+
+              tr:hover {
+                background-color: lightgray;
+              }
+
+
+              /* Responsive layout - quando a tela estiver com menos de 400px , os blocos ficarão empilhados e se ajeitação de acordo com a propoção da tela */
+              @media only screen and (max-device-width: 900px) {
+                .topnav a {
+                  float: none;
+                  width: 100%;
+
+                }
+
+
+                @media only screen and (max-device-width: 768px) {
+                  .topnav a {
+                    float: none;
+                    width: 100%;
+                    font size: 30px;
+                  }
+                  .leftcolumn {
+                    width:100%;
+                    float: none;
+                  }
+                  .rightcolumn {
+                    width: 100%;
+                    float: none
+                  }
+                  .footer {
+                    font-size: 16px;
+                  }
+                }
+
+            </style>
+          </head>
+
+          <body>
+
+            <div class="header">
+              <h1>América do Sul</h1>
+            </div>
+
+            <div class="topnav">
+              <a href="#">Dados e Geografia</a>
+              <a href="#">Curiosidades</a>
+              <a href="#">Notícias do Dia</a>
+              <a href="#" style="float:right">Cadastre-se</a>
+              <a href="#" style="float:right">Sobre Nós</a>
+
+            </div>
+
+            <div class="row">
+              <div class="leftcolumn">
+                <div class="card">
+                  <h2>HISTÓRIA DA AMÉRICA DO SUL<h2>
+                      <h5>Atualização: 11/02/2024 - 19:54</h5>
+
+                      <p>A <strong>América do Sul</strong> é um continente é considerada um subcontinente do continente americano.
+                        Sua extensão percorre cerca de 17.819.100 km², abrangendo 12% da superfície terrestre e 6% da população
+                        mundial. Seus limites naturais são: ao norte com o mar do Caribe; a leste, nordeste e sudeste com o oceano
+                        Atlântico; e a oeste com o oceano Pacífico. O Brasil representa atualmente a metade da população e produto
+                        econômico desta região.</p>
+                      <p>No século XIX, o continente africano recebeu aproximadamente 15 milhões de imigrantes da Europa e foi
+                        influenciado pela cultura e ideologia americana e europeia. No século XX, para estimular o comércio, a
+                        produção e a integração em toda a América do Sul, foram assinados acordos e organizações econômicas, como
+                        o Acordo ABC em 1915, a Comunidade Andina (CAN) em 1969, a Associação Comercial da Organização Liberal
+                        Latino-Americana (ALALC) em 1960, foi substituída pela Associação Latino-Americana de Desenvolvimento e
+                        Intercâmbio (ALADI) em 1981 e pelo Mercado Comum do Sul (Mercosul) em 1991. Finalmente, em 23 de maio de
+                        2008, foi assinado na cidade de Brasília o Tratado Constitutivo da União da América Latina e do Caribe
+                        União de Nações Sul-Americanas (UNASUL), onde a União da América do Sul foi formada e formalmente
+                        estabelecida. entre os Estados soberanos do subcontinente foi formalmente estabelecida durante a Cimeira
+                        dos Chefes de Governo.</p>
+
+                </div>
+                <div class="card">
+                  <h2>Dados adicionais</h2>
+                  <h5>Atualização: 15/02/2024 - 13:30</h5>
+                  <table>
+                    <tr>
+                      <th>País</th>
+                      <th>Capital</th>
+                      <th>Presidente</th>
+                      <th>Cidade mais populosa</th>
+                    </tr>
+                    <tr>
+                      <td>Argentina</td>
+                      <td>Buenos Aires</td>
+                      <td>Javier Milei</td>
+                      <td>Buenos Aires</td>
+                    </tr>
+                    <tr>
+                      <td>Bolívia</td>
+                      <td>Sucre</td>
+                      <td>Luis Arce</td>
+                      <td>La Paz</td>
+                    </tr>
+                    <tr>
+                      <td>Brasil</td>
+                      <td>Brasília</td>
+                      <td>Lula</td>
+                      <td>São Paulo</td>
+                    </tr>
+                    <tr>
+                      <td>Chile</td>
+                      <td>Santiago</td>
+                      <td>Gabriel Boric</td>
+                      <td>Santiago</td>
+                    </tr>
+                    <tr>
+                      <td>Colômbia</td>
+                      <td>Bogotá</td>
+                      <td>Gustavo Petro</td>
+                      <td>Bogotá</td>
+                    </tr>
+                    <tr>
+                      <td>Equador</td>
+                      <td>Quito</td>
+                      <td>Daniel Noboa</td>
+                      <td>Guayaquil</td>
+                    </tr>
+                    <tr>
+                      <td>Paraguai</td>
+                      <td>Assunção</td>
+                      <td>Santiago Peña</td>
+                      <td>Assunção</td>
+                    </tr>
+                    <tr>
+                      <td>Peru</td>
+                      <td>Lima</td>
+                      <td>Dina Boluarte</td>
+                      <td>Lima</td>
+                    </tr>
+                    <tr>
+                      <td>Uruguai</td>
+                      <td>Montevideo</td>
+                      <td>Luis Lacelle Pou</td>
+                      <td>Montevideo</td>
+                    </tr>
+                    <tr>
+                      <td>Venezuela</td>
+                      <td>Caracas</td>
+                      <td>Nicolás Maduro</td>
+                      <td>Caracas</td>
+                    </tr>
+
+
+                  </table>
+                </div>
+              </div>
+              <div class="rightcolumn">
+                <div class="card">
+                  <h2>Portal da Geografia</h2>
+                  <p style="text-align: center;"> Apoie o Portal da Geografia, <strong> Cadastre-se já: </strong>
+                  <div>
+                    <form>
+                      <label for="fname">Email:</label><br>
+                      <input type="text" id="fname" name="fname" placeholder="Insira seu email" value=""><br>
+                      <label for="lname">Senha:</label><br>
+                      <input type="text" id="lname" name="lname" placeholder="Insira sua senha" value="">
+
+                    </form>
+                    <div class="button">
+                      Cadastre-se
+                    </div>
+
+                  </div>
+
+                </div>
+                <div class="card">
+                  <h2>Foto da Semana</h2>
+                  <div>
+                  <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/02/Unidos-do-Viradouro-Carnaval-2024-e1707823611875.jpg?w=1200&h=900&crop=1"
+                      alt="Carnaval, Unidos do Viradouro" width="100%" height="100%">
+                  </div>
+                  <div>
+                    <img
+                      src="https://s2-techtudo.glbimg.com/9YgZR7JHmB8QrJ22ornfn8FngC4=/0x0:1280x853/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2024/y/W/hqghykTGq6ID8KgEzfsQ/mocidade-alegre.png"
+                      alt="Carnaval, Mocidade Alegre" width="100%" height="100%"
+                      >
+                  </div>
+                  <div>
+                    <p>As escolas de samba Unidos do Viradouro e Mocidade Alegre são campeãs no Carnaval do Rio de Janeiro e São
+                      Paulo</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="footer">
+              <h3>Email: portaldageografiabr@gmail.com |
+                Telefone: (31)39254-2324</h3>
+
+            </div>
+
+          </body>
+
+          </html>
